@@ -7,7 +7,7 @@
     <title>Qual é o meu produto? | Green Line Premium</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -72,34 +72,39 @@
                                 aria-labelledby="pills-profile-tab">
                                 <h3> Então, <span class="nome-pessoa">Nome aqui</span>, qual seu objetivo?</h3>
 
-                                <div id="checkbox-objetivos"class="form-row">
+                                <div id="checkbox-objetivos" class="form-row">
                                     <div class="form-check col-md-5 mb-3">
-                                        <input class="form-check-input" type="checkbox" id="emagrecer" value="emagrecer">
+                                        <input class="form-check-input" type="checkbox" id="emagrecer"
+                                            value="emagrecer">
                                         <label class="form-check-label" for="emagrecer">
                                             Emagrecer
                                         </label>
                                     </div>
                                     <div class="form-check col-md-5 mb-3">
-                                        <input class="form-check-input" type="checkbox" value="massa-corporal" id="massa-corporal">
+                                        <input class="form-check-input" type="checkbox" value="massa-corporal"
+                                            id="massa-corporal">
                                         <label class="form-check-label" for="massa-corporal">
                                             Ganhar massa corporal
                                         </label>
                                     </div>
                                     <div class="form-check col-md-5 mb-3">
-                                        <input class="form-check-input" type="checkbox" value="hipertrofia" id="hipertrofia">
+                                        <input class="form-check-input" type="checkbox" value="hipertrofia"
+                                            id="hipertrofia">
                                         <label class="form-check-label" for="hipertrofia">
                                             Hipertrofia
                                         </label>
                                     </div>
                                     <div class="form-check col-md-5 mb-3">
-                                        <input class="form-check-input" type="checkbox" value="disposicao" id="disposicao">
+                                        <input class="form-check-input" type="checkbox" value="disposicao"
+                                            id="disposicao">
                                         <label class="form-check-label" for="disposicao">
                                             Disposição
                                         </label>
                                     </div>
                                 </div>
                                 <div class="col-xs-12">
-                                    
+                                    <button data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home"
+                                        aria-selected="true" class="btn btn-outline bt-primary">Voltar</button>
                                     <button id="next-2" class="btn btn-primary">Próximo</button>
                                 </div>
                             </div>
@@ -108,6 +113,12 @@
                                 <h3> Pronto, <span class="nome-pessoa">Nome aqui</span>, Veja abaixo quais são os
                                     produtos recomendados para você!</h3>
                                 <span>Lembre-se, isso é baseado em pesquisa e não uma indicação médica</span>
+                                <div class="col-xs-12">
+
+                                    <button data-toggle="pill" href="#pills-profile" role="tab"
+                                        aria-controls="pills-profile" aria-selected="false"
+                                        class="btn btn-outline bt-primary">Voltar</button>
+                                </div>
                             </div>
                         </div>
                     </div>

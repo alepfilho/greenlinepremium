@@ -16,9 +16,9 @@ $("#next-1").click(() => {
 })
 $("#next-2").click(function(){
     const selected = new Array();
-    console
     $("#checkbox-objetivos input[type=checkbox]:checked").each(function () {
         selected.push(this.value);
+        respostas.escolhas = selected
     });
 
     if(selected.length == 0){
@@ -26,7 +26,11 @@ $("#next-2").click(function(){
     }else{
         
     $('#pills-contact-tab').click()
+
+    const newArray = respostas.escolhas
+
     }
+
 })
 
 
